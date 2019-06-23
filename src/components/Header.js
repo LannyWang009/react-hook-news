@@ -1,5 +1,6 @@
 import React from "react";
 import {withRouter, NavLink} from 'react-router-dom'
+import Login from './Auth/Login';
 
 function Header() {
   return (
@@ -24,6 +25,11 @@ function Header() {
         <NavLink to='/create' className='header-link'>
           Submit
         </NavLink>
+      </div>
+      <div className="flex">
+          <NavLink to='/login' className='header-link'>
+            Login
+          </NavLink>
       </div>
     </div>
   )

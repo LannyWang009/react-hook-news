@@ -60,7 +60,7 @@ input {
 }
 
 .header {
-  background-color: #ff6600;
+  background-color: hsl(27, 100%, 50%);
   white-space: nowrap;
   padding: 0.25rem;
   color: black;
